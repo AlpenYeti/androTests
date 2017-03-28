@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="campusgaming.tests.selectRace"
+    tools:showIn="@layout/activity_select_race"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="181dp"
+        android:layout_height="29dp"
+        android:text="Choisissez une race :"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="193dp"
+        android:layout_marginLeft="69dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <RadioGroup
+        android:layout_width="104dp"
+        android:layout_height="318dp"
+        android:layout_marginBottom="43dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="137dp">
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Elfe" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:text="Humain" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:text="Hobbit" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:text="Nain" />
+
+    </RadioGroup>
+</android.support.constraint.ConstraintLayout>

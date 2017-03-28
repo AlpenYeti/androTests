@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">joss\' tests</string>
     <string name="bonjour_monde">hello world</string>
+    <string name="intro_text">Welcome in a story where YOU will be the hero !</string>
+    <string name="intro_sub_text">In this game, you\'ll go through a 100-step gameboard. You will have to face different events in order to survive. Good luck !.</string>
+    <string name="continueBtn">Continue</string>
+    <string name="title_activity_select_race">selectRace</string>
 </resources>

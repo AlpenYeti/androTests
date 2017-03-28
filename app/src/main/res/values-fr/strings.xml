@@ -2,4 +2,7 @@
 <resources>
     <string name="app_name">Tests de Joss</string>
     <string name="bonjour_monde">Bonjour, Monde !</string>
+    <string name="intro_text">Bienvenue dans une histoire dont VOUS serez le héros !</string>
+    <string name="intro_sub_text">Dans ce jeu, vous allez progresser sur un plateau constitué de 100 cases. Au hasard, des chemins, vous rencontrerez des événements et essaierez d\'y survivre. Bonne chance !</string>
+    <string name="continueBtn">Continuer</string>
 </resources>
